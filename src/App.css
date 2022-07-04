@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: grid;
+  background: rgb(25, 25, 25);
+  color: white;
+  place-items: center;
 }
 
 .App-logo {
