@@ -1,0 +1,64 @@
+{
+  "payments": [
+    {
+      "id": "pay_JpFLSFxHdskeG7",
+      "entity": "payment",
+      "amount": 50000,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": "order_JpFKpbTSQLZIdm",
+      "invoice_id": null,
+      "international": false,
+      "method": "card",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": "Test Transaction",
+      "card_id": "card_JpFLSJEYOdHpdu",
+      "card": {
+        "id": "card_JpFLSJEYOdHpdu",
+        "entity": "card",
+        "name": "Shashwat Tripathi",
+        "last4": "1111",
+        "network": "Visa",
+        "type": "debit",
+        "issuer": null,
+        "international": false,
+        "emi": false,
+        "sub_type": "consumer",
+        "token_iin": null
+      },
+      "bank": null,
+      "wallet": null,
+      "vpa": null,
+      "email": "shashwat@tripathi.com",
+      "contact": "+919999999999",
+      "notes": {
+        "address": "Razorpay Corporate Office"
+      },
+      "fee": 1000,
+      "tax": 0,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "auth_code": "923898"
+      },
+      "created_at": 1656928433
+    }
+  ],
+  "checkouts": [
+    {
+      "isPaid": "true",
+      "amount": 50000,
+      "meta": {
+        "orderID": "order_JpFKpbTSQLZIdm",
+        "paymentID": "pay_JpFLSFxHdskeG7",
+        "txSignature": "90aad0707cbb6b384f8708c91508eb58c9306dd50fae55faa7bfcb20fa2983c1"
+      },
+      "id": 1
+    }
+  ]
+}
